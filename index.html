@@ -1,15 +1,75 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PixelPulse</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <h1>helllo world </h1>
-    <h1>part-1-scaffold-ui new branch</h1>
-    <h1>kalvium
-        
-    </h1>
+
+    <header>
+
+        <h1>📸 PixelPulse</h1>
+
+        <p>Search the world through images.</p>
+
+    </header>
+
+    <main>
+
+        <section class="search-section">
+
+            <input
+
+                type="text"
+
+                id="searchInput"
+
+                placeholder="Search for something..."
+
+                autocomplete="off"
+
+            >
+
+            <button id="searchButton">
+
+                Search
+
+            </button>
+
+        </section>
+
+        <!-- Status messages appear here -->
+
+        <p id="status">
+
+            Type a word and search to discover images.
+
+        </p>
+
+        <!-- Images will appear here -->
+
+        <section id="results"></section>
+
+    </main>
+
+    <footer>
+
+        <p>PixelPulse • Powered by Wikimedia Commons</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
